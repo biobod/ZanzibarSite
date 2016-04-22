@@ -1,0 +1,70 @@
+
+
+body{
+    margin: 0px;
+}
+
+#wrapper{
+
+   max-width: 1400px;
+}
+
+#main-block{
+    height: 100%;
+    width: 100%;
+    background-color: #e6ffff;
+}
+
+.menu {
+    position: fixed;
+    margin-top: 0px;
+    width: 100%;
+    height: 110px;
+    background-color: #1a53ff;
+    z-index: 100;
+    opacity: 0.5;
+
+}
+.aboutCounty{
+    position: relative;
+    top: 110px;
+    width: 100%;
+    height: 600px;
+    background-color: #ffb3ff;
+
+
+}
+.advantages{
+    position: relative;
+    width: 100%;
+    height: 300px;
+    background-color:#b3cce6;
+
+}
+
+.beaches{
+    position: relative;
+    width: 100%;
+    height: 1000px;
+    background-color: #cccc00;
+}
+.indTour{
+    position: relative;
+    width: 100%;
+    height: 200px;
+    background-color: black;
+}
+
+.reviews{
+    position: relative;
+    width: 100%;
+    height: 800px;
+    background-color: #cc66ff;
+}
+
+.contacts{
+    position: relative;
+    width: 100%;
+    height: 500px;
+    background-color: #ffb84d;
+}
