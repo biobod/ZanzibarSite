@@ -6,49 +6,57 @@ body{
 
 #wrapper{
 
-   max-width: 1400px;
+   width: 100%;
+   max-width: 1600px;
+
 }
 
 #main-block{
     height: 100%;
     width: 100%;
-    background-color: #e6ffff;
+    background-color: #333333;
 }
 
 .menu {
     position: fixed;
     margin-top: 0;
     width: 100%;
-    height: 110px;
-    background-color: #000099;
+    height: 80px;
+    background-color: #333333;
     z-index: 100;
     color: white;
 
 }
 .aboutCounty{
     position: relative;
-    top: 110px;
+    top: 80px;
     width: 100%;
-    height: 700px;
-    background-image: url("zanz0.jpg");
-    background-size: auto 700px ;
+    height: 800px;
+    background-image: url("images1.jpg");
+    background-size: cover;
     background-repeat: no-repeat;
+    background-position: 100%;
+
+
 
 
 }
 .advantages{
     position: relative;
     width: 100%;
-    height: 300px;
-    background-color:#b3cce6;
+    height: 400px;
+    background-image: url("tictac-fon.jpg");
+    background-size: cover;
+    background-position: 70%;
+     margin-top: 85px;
 
 }
 
 .beaches{
     position: relative;
     width: 100%;
-    height: 1000px;
-    background-color: #cccc00;
+    height: 1500px;
+    background-color: #333333;
 }
 .indTour{
     position: relative;
@@ -86,34 +94,217 @@ body{
     width: 30%;
     background-color: gray;
 }
-.logo-menu{
-    height: 60%;
 
-}
+
 .down-m-menu{
-    height: 40%;
+    margin-top: 20px;
+    height: 100%;
     width: 100%;
     overflow: hidden;
 }
 .down-m-menu ul li {
 
+cursor: pointer;
     font-size: 20px;
     display: inline;
     padding-left: 18px;
 }
+.down-m-menu ul li:hover{
+    color: #99ccff;
+
+}
 /* -------------aboutCounty-------------------*/
 .county-block1{
     position: absolute;
-    height: 500px;
-    width: 400px;
- font-size: 22px;
-    font-family: Roboto Condensed, sans-serif;
-   left: 20px;
     top: 20px;
-    background-image: url('fon.png');
- border-radius: 30px;
+    display: inline;
+
 
 }
-.county-block1 p {
+.country-title{
+    margin: auto 0;
+    text-align: center;
+    color: black;
+    font-size: 25px;
+    font-family: Roboto Condensed, sans-serif;
+    background-image: url("opac50fon.png");
+}
+.country-inform{
+    position: relative;
+    float: left;
+    height: 500px;
+    width: 30%;
+    font-size: 18px;
+    font-family: Roboto Condensed, sans-serif;
+    margin-left: 20px;
+overflow: hidden;
+    background-color: white;
+
+
+}
+.county-block1 h1 {
     padding: 10px 10px;
+}
+.coutry-foto {
+    height: 250px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.coutry-foto img{
+    height: 100%;
+    width: 100%;
+}
+
+/* -------------Timer-------------------*/
+.timelost{
+
+    margin-left: 16%;
+    padding-top: 10px ;
+    text-align: center;
+    color: white;
+    font-size: 28px;
+    font-weight: 600;
+    font-family: Roboto Condensed, sans-serif;
+    width: 68%;
+
+   }
+.timelost-1{
+    height: 100%;
+    width: 100%;
+
+    border: solid white 2px;
+    border-radius: 10px;
+   vertical-align: middle;
+    background-color: #1a1a1a;
+
+}
+
+
+
+.clickAction{
+    padding-top: 10px;
+    margin: auto 0;
+    text-align: center;
+    color: black;
+
+}
+.clickAction-b{
+    height: 60px;
+    width: 600px;
+    font-size: 27px;
+    font-family: Roboto Condensed, sans-serif;
+    color: white;
+    border-radius: 5px;
+   background-color: #1a1a1a;
+    cursor: pointer;
+}
+.clickAction-b:hover{
+    background-color: #333333;
+    padding-top: 8px;
+}
+
+/* ------------- Beaches-------------------*/
+.beach{
+    margin-top: 5px;
+    width: 98%;
+    margin-left: 1%;
+    height: 400px;
+    font-family: Roboto Condensed, sans-serif;
+    overflow: hidden;
+}
+.b-kendwa{
+    background-image: url("kendwa.jpg");
+    background-position: 100%;
+    background-size: cover;
+
+
+}
+.hotel-kendwa{
+    float: left;
+    height: 100%;
+    width: 40%;
+    background-image: url("opac50fon.png");
+    background-position: 100%;
+    font-size: 17px;
+    text-align: center;
+}
+.beach h2{
+    padding-top: 5px;
+}
+.beach p {
+    padding: 5px;
+}
+.stars {
+    display: inline;
+}
+.hot-b{
+    height: 50px;
+    width: 320px;
+    font-size: 23px;
+    font-weight: 600;
+    background-color:#ffff33;
+    cursor: pointer;
+    border: solid 2px black;
+    border-radius: 9px;
+}
+.price h2{
+    padding-top: 0px;
+}
+
+.hot-b:hover{
+    background-color: #b3b3ff;
+}
+.b-kendwa-1{
+    float: left;
+    width: 60%;
+    display: block;
+    height: 100px;
+    text-align: center;
+    background-image: url("opac75fon.png");
+    background-position: 100%;
+    font-size: 22px;
+    color: white;
+}
+
+.b-nungwi{
+    background-image: url("nungwi.jpg");
+    background-position: 100%;
+    background-size: cover;
+
+}
+.hotel-nungwi{
+    float: right;
+    height: 100%;
+    width: 40%;
+    background-image: url("opac50fon.png");
+    background-position: 100%;
+    font-size: 17px;
+    text-align: center;
+}
+.b-nungwi-1{
+    float: right;
+    width: 60%;
+    display: block;
+    height: 100px;
+    text-align: center;
+    background-image: url("opac75fon.png");
+    background-position: 100%;
+    font-size: 22px;
+    color: white;
+}
+
+.b-uroa{
+    background-image: url("uroa.jpg");
+    background-position: 100%;
+    background-size: cover;
+}
+.hotel-uroa{
+    float: left;
+    height: 100%;
+    width: 40%;
+    background-image: url("opac50fon.png");
+    background-position: 100%;
+    font-size: 17px;
+    text-align: center;
 }
