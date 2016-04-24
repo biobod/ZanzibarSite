@@ -2,6 +2,7 @@
 
 body{
     margin: 0;
+    font-family: Roboto Condensed, sans-serif;
 }
 
 #wrapper{
@@ -32,7 +33,7 @@ body{
     top: 80px;
     width: 100%;
     height: 800px;
-    background-image: url("images1.jpg");
+    background-image: url("foto/images1.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 100%;
@@ -45,7 +46,7 @@ body{
     position: relative;
     width: 100%;
     height: 400px;
-    background-image: url("tictac-fon.jpg");
+    background-image: url("foto/tictac-fon.jpg");
     background-size: cover;
     background-position: 70%;
      margin-top: 85px;
@@ -55,21 +56,25 @@ body{
 .beaches{
     position: relative;
     width: 100%;
-    height: 1500px;
+    height: 1625px;
     background-color: #333333;
 }
 .indTour{
     position: relative;
     width: 100%;
-    height: 200px;
-    background-color: black;
+    height: 400px;
+    background-image: url("foto/personal_tur_fon.jpg");
+
+
+
+
 }
 
 .reviews{
     position: relative;
     width: 100%;
-    height: 800px;
-    background-color: #cc66ff;
+    height: 1180px;
+    background-color: #333333;
 }
 
 .contacts{
@@ -127,7 +132,7 @@ cursor: pointer;
     color: black;
     font-size: 25px;
     font-family: Roboto Condensed, sans-serif;
-    background-image: url("opac50fon.png");
+    background-image: url("foto/opac50fon.png");
 }
 .country-inform{
     position: relative;
@@ -214,7 +219,7 @@ overflow: hidden;
     overflow: hidden;
 }
 .b-kendwa{
-    background-image: url("kendwa.jpg");
+    background-image: url("foto/kendwa.jpg");
     background-position: 100%;
     background-size: cover;
 
@@ -224,7 +229,7 @@ overflow: hidden;
     float: left;
     height: 100%;
     width: 40%;
-    background-image: url("opac50fon.png");
+    background-image: url("foto/opac50fon.png");
     background-position: 100%;
     font-size: 17px;
     text-align: center;
@@ -261,14 +266,14 @@ overflow: hidden;
     display: block;
     height: 100px;
     text-align: center;
-    background-image: url("opac75fon.png");
+    background-image: url("foto/opac75fon.png");
     background-position: 100%;
     font-size: 22px;
     color: white;
 }
 
 .b-nungwi{
-    background-image: url("nungwi.jpg");
+    background-image: url("foto/nungwi.jpg");
     background-position: 100%;
     background-size: cover;
 
@@ -277,7 +282,7 @@ overflow: hidden;
     float: right;
     height: 100%;
     width: 40%;
-    background-image: url("opac50fon.png");
+    background-image: url("foto/opac50fon.png");
     background-position: 100%;
     font-size: 17px;
     text-align: center;
@@ -288,14 +293,14 @@ overflow: hidden;
     display: block;
     height: 100px;
     text-align: center;
-    background-image: url("opac75fon.png");
+    background-image: url("foto/opac75fon.png");
     background-position: 100%;
     font-size: 22px;
     color: white;
 }
 
 .b-uroa{
-    background-image: url("uroa.jpg");
+    background-image: url("foto/uroa.jpg");
     background-position: 100%;
     background-size: cover;
 }
@@ -303,8 +308,204 @@ overflow: hidden;
     float: left;
     height: 100%;
     width: 40%;
-    background-image: url("opac50fon.png");
+    background-image: url("foto/opac50fon.png");
     background-position: 100%;
     font-size: 17px;
     text-align: center;
+}
+.b-bubu{
+    background-image: url("foto/bububu.jpg");
+    background-position: 100%;
+    background-size: cover;
+}
+.hotel-bubu{
+    float: right;
+    height: 100%;
+    width: 40%;
+    background-image: url("foto/opac50fon.png");
+    background-position: 100%;
+    font-size: 17px;
+    text-align: center;
+}
+.b-bubu-1{
+    float: left;
+    width: 60%;
+    display: block;
+    height: 100px;
+    text-align: center;
+    background-image: url("foto/opac75fon.png");
+    background-position: 100%;
+    font-size: 22px;
+    font-weight: 600;
+    color: white;
+}
+
+/* -------------  IndTour -------------------*/
+.tur-why{
+    display: block;
+    float: left;
+    width: 600px;
+    height: 300px;
+    margin: 35px 50px 50px 50px;
+    font-family: garamond, gabriola;
+
+}
+.tur-w-1 h2{
+    margin: 0;
+    width: 500px;
+    font-size: 40px;
+    font-weight: 500;
+    padding-left: 30px;
+    background-color: white;
+
+
+}
+.tyr-w-2 ul{
+    margin: 0;
+}
+.tyr-w-2 li{
+    list-style-type: none;
+    height: 54px;
+    font-size: 32px;
+    font-weight: 600;
+    margin-top: 5px;
+    text-align: center;
+    background-color: #f2f2f2;
+    border-bottom: solid 2px black;
+    border-left: solid 2px black;
+
+
+
+
+}
+.tyr-w-2 li p{
+margin-top: 0;
+   padding-left: 20px;
+    padding-top: 2px;
+
+
+
+}
+.tur-form{
+    display: block;
+    float: left;
+    width: 400px;
+    height: 320px;
+    margin: 30px 50px 50px 50px;
+    background-image: url("foto/opac50fon.png") ;
+    border: solid 3px white;
+    border-radius: 10px;
+}
+.tur-form input {
+    margin-top: 20px;
+   margin-left: 30px;
+    width: 340px;
+    height: 40px;
+    font-family: garamond, gabriola;
+    font-size: 25px;
+
+}
+.tur-form h3{
+    margin: 20px 0px 0px 10px;
+    font-family: garamond, gabriola;
+    font-size: 32px;
+    text-align: center;
+}
+/* -------------reviews-------------------*/
+
+.reviews-main{
+    width: 96%;
+    margin-left: 2%;
+    margin-top: 1%;
+    background-image: url("foto/bottom_fon.jpg");
+    height: 98%;
+    font-family: garamond, gabriola;
+    
+}
+.rev-t-1{
+    position: relative;
+    float: left;
+    margin: 20px 50px 0px 30px;
+    height: 180px;
+    width: 650px;
+
+
+}
+
+.rev-t-2{
+    float: right;
+    margin: 10px 30px 0px 10px;
+    height: 180px;
+    width: 900px;
+
+
+}
+
+.rev1-img{
+    float: left;
+    height: 350px;
+    width: 320px;
+
+
+}
+.rev2-img{
+    margin-right: 5px;
+    float: right;
+    height: 320px;
+    width: 300px;
+
+
+}
+
+.rev1-img img{
+    height: 100%;
+    width: 100%;
+}
+
+.rev2-img img{
+    height: 100%;
+    width: 100%;
+}
+.rev1-text{
+    margin: 0;
+    position: relative;
+    float: right;
+    height: 180px;
+    width: 330px;
+    background-image: url("foto/opac50fon.png");
+
+
+}
+.rev1-text p{
+    padding-left: 7px;
+    padding-right: 7px;
+    margin-bottom: 4px;
+}
+.rev1-text h3{
+    padding-left: 12px;
+    margin: 6px 4px 4px 4px;
+}
+
+.rev2-text{
+    margin: 0;
+    position: relative;
+    float: left;
+    height: 180px;
+    width: 290px;
+    background-image: url("foto/opac50fon.png");
+
+}
+
+.rev2-text p{
+    margin-bottom: 4px;
+    padding-left: 7px;
+    padding-right: 7px;
+
+
+}
+
+.rev2-text h3{
+margin: 6px 4px 4px 4px;
+    padding-left: 12px;
+    padding-right: 12px;
 }
