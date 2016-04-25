@@ -7,8 +7,8 @@ body{
 
 #wrapper{
 
-   width: 100%;
-   max-width: 1600px;
+    width: 100%;
+    max-width: 1600px;
 
 }
 
@@ -19,6 +19,7 @@ body{
 }
 
 .menu {
+    display: none;
     position: fixed;
     margin-top: 0;
     width: 100%;
@@ -28,14 +29,34 @@ body{
     color: white;
 
 }
-.goto{
-    display: none;
+.goto {
+    display: block;
+    position: fixed;
+    margin-top: 0;
+    width: 100%;
+    height: 80px;
+    background-color: #333333;
+    z-index: 100;
+    color: white;
+
+}
+.goto input{
+    margin-top: 20px;
+    margin-left: 25px;
+    width: 250px;
+    height: 40px;
+    font-family: garamond, gabriola;
+    font-size: 22px;
+    background-color: yellowgreen;
+}
+.goto input:hover{
+    background-color: yellow;
 }
 .aboutCounty{
     position: relative;
     top: 80px;
     width: 100%;
-    height: 800px;
+    height: 300px;
     background-image: url("foto/images1.jpg");
     background-size: cover;
     background-repeat: no-repeat;
@@ -46,20 +67,21 @@ body{
 
 }
 .advantages{
+    display: none;
     position: relative;
     width: 100%;
     height: 400px;
     background-image: url("foto/tictac-fon.jpg");
     background-size: cover;
     background-position: 70%;
-     margin-top: 85px;
+    margin-top: 85px;
 
 }
 
 .beaches{
     position: relative;
     width: 100%;
-    height: 1625px;
+    height: 830px;
     background-color: #333333;
 }
 .indTour{
@@ -74,6 +96,7 @@ body{
 }
 
 .reviews{
+    display: none;
     position: relative;
     width: 100%;
     height: 1180px;
@@ -83,7 +106,7 @@ body{
 .contacts{
     position: relative;
     width: 100%;
-    height: 500px;
+    height: 350px;
     background-color: #333333;
 }
 
@@ -105,15 +128,15 @@ body{
 
 
 .down-m-menu{
-    margin-top: 20px;
+    margin-top: 15px;
     height: 100%;
     width: 100%;
     overflow: hidden;
 }
 .down-m-menu ul li {
 
-cursor: pointer;
-    font-size: 20px;
+    cursor: pointer;
+    font-size: 18px;
     display: inline;
     padding-left: 18px;
 }
@@ -133,37 +156,44 @@ cursor: pointer;
     margin: auto 0;
     text-align: center;
     color: black;
-    font-size: 25px;
+    font-size: 15px;
     font-family: Roboto Condensed, sans-serif;
     background-image: url("foto/opac50fon.png");
 }
 .country-inform{
+    display: none;
     position: relative;
     float: left;
-    height: 500px;
-    width: 30%;
-    font-size: 18px;
+    height: 300px;
+    width: 100%;
+    font-size: 16px;
     font-family: Roboto Condensed, sans-serif;
-    margin-left: 20px;
-overflow: hidden;
+    margin-top: 5px;
+    margin-left: 7px;
+    margin-right: 7px;
+    overflow: hidden;
     background-color: white;
+
 }
 
-.country-inform p {
-    padding-left: 4px;
-}
+
 .county-block1 h1 {
     padding: 10px 10px;
 }
 .coutry-foto {
-    height: 250px;
+    height: 200px;
     width: 100%;
-    margin: 0 auto;
+    margin: 0;
+    float: left;
+
 }
 
 .coutry-foto img{
     height: 100%;
     width: 100%;
+}
+.country-inform p {
+    padding-left: 4px;
 }
 
 /* -------------Timer-------------------*/
@@ -178,14 +208,14 @@ overflow: hidden;
     font-family: Roboto Condensed, sans-serif;
     width: 68%;
 
-   }
+}
 .timelost-1{
     height: 100%;
     width: 100%;
 
     border: solid white 2px;
     border-radius: 10px;
-   vertical-align: middle;
+    vertical-align: middle;
     background-color: #1a1a1a;
 
 }
@@ -206,7 +236,7 @@ overflow: hidden;
     font-family: Roboto Condensed, sans-serif;
     color: white;
     border-radius: 5px;
-   background-color: #1a1a1a;
+    background-color: #1a1a1a;
     cursor: pointer;
 }
 .clickAction-b:hover{
@@ -219,7 +249,7 @@ overflow: hidden;
     margin-top: 5px;
     width: 98%;
     margin-left: 1%;
-    height: 400px;
+    height: 200px;
     font-family: Roboto Condensed, sans-serif;
     overflow: hidden;
 }
@@ -236,22 +266,26 @@ overflow: hidden;
     width: 40%;
     background-image: url("foto/opac50fon.png");
     background-position: 100%;
-    font-size: 17px;
+    font-size: 13px;
     text-align: center;
 }
 .beach h2{
     padding-top: 5px;
+
+
 }
 .beach p {
+    display: none;
     padding: 5px;
 }
 .stars {
     display: inline;
 }
 .hot-b{
-    height: 50px;
-    width: 320px;
-    font-size: 23px;
+    display: none;
+    height: 40px;
+    width: 280px;
+    font-size: 20px;
     font-weight: 600;
     background-color:#ffff33;
     cursor: pointer;
@@ -266,14 +300,14 @@ overflow: hidden;
     background-color: #b3b3ff;
 }
 .b-kendwa-1{
+    display: none;
     float: left;
     width: 60%;
-    display: block;
-    height: 100px;
+     height: 100px;
     text-align: center;
     background-image: url("foto/opac75fon.png");
     background-position: 100%;
-    font-size: 22px;
+    font-size: 19px;
     color: white;
 }
 
@@ -289,18 +323,19 @@ overflow: hidden;
     width: 40%;
     background-image: url("foto/opac50fon.png");
     background-position: 100%;
-    font-size: 17px;
+    font-size: 13px;
     text-align: center;
 }
 .b-nungwi-1{
+    display: none;
     float: right;
     width: 60%;
-    display: block;
+
     height: 100px;
     text-align: center;
     background-image: url("foto/opac75fon.png");
     background-position: 100%;
-    font-size: 22px;
+    font-size: 19px;
     color: white;
 }
 
@@ -315,7 +350,7 @@ overflow: hidden;
     width: 40%;
     background-image: url("foto/opac50fon.png");
     background-position: 100%;
-    font-size: 17px;
+    font-size: 13px;
     text-align: center;
 }
 .b-bubu{
@@ -329,35 +364,36 @@ overflow: hidden;
     width: 40%;
     background-image: url("foto/opac50fon.png");
     background-position: 100%;
-    font-size: 17px;
+    font-size: 13px;
     text-align: center;
 }
 .b-bubu-1{
+    display: none;
     float: left;
     width: 60%;
-    display: block;
+
     height: 100px;
     text-align: center;
     background-image: url("foto/opac75fon.png");
     background-position: 100%;
-    font-size: 22px;
+    font-size: 19px;
     font-weight: 600;
     color: white;
 }
 
 /* -------------  IndTour -------------------*/
 .tur-why{
-    display: block;
+    display: none;
     float: left;
-    width: 600px;
+    width: 480px;
     height: 300px;
-    margin: 35px 50px 50px 50px;
+    margin: 15px 20px 10px 10px;
     font-family: garamond, gabriola;
 
 }
 .tur-w-1 h2{
     margin: 0;
-    width: 500px;
+    width: 400px;
     font-size: 40px;
     font-weight: 500;
     padding-left: 30px;
@@ -370,8 +406,8 @@ overflow: hidden;
 }
 .tyr-w-2 li{
     list-style-type: none;
-    height: 54px;
-    font-size: 32px;
+    height: 44px;
+    font-size: 25px;
     font-weight: 600;
     margin-top: 5px;
     text-align: center;
@@ -379,13 +415,11 @@ overflow: hidden;
     border-bottom: solid 2px black;
     border-left: solid 2px black;
 
-
-
-
 }
+
 .tyr-w-2 li p{
-margin-top: 0;
-   padding-left: 20px;
+    margin-top: 0;
+    padding-left: 20px;
     padding-top: 2px;
 
 
@@ -394,26 +428,26 @@ margin-top: 0;
 .tur-form{
     display: block;
     float: left;
-    width: 400px;
+    width: 320px;
     height: 320px;
-    margin: 30px 50px 50px 50px;
+    margin: 15px 0px 0px 20px;
     background-image: url("foto/opac50fon.png") ;
     border: solid 3px white;
     border-radius: 10px;
 }
 .tur-form input {
     margin-top: 20px;
-   margin-left: 30px;
-    width: 340px;
-    height: 40px;
+    margin-left: 15px;
+    width: 250px;
+    height: 30px;
     font-family: garamond, gabriola;
-    font-size: 25px;
+    font-size: 20px;
 
 }
 .tur-form h3{
     margin: 20px 0px 0px 10px;
     font-family: garamond, gabriola;
-    font-size: 32px;
+    font-size: 30px;
     text-align: center;
 }
 /* -------------reviews-------------------*/
@@ -425,31 +459,31 @@ margin-top: 0;
     background-image: url("foto/bottom_fon.jpg");
     height: 98%;
     font-family: garamond, gabriola;
-    
+
 }
 .rev-t-1{
-    position: relative;
+    display: block;
     float: left;
-    margin: 20px 50px 0px 30px;
-    height: 180px;
-    width: 650px;
-
+    height: 380px;
+    width: 93%;
 
 }
 
 .rev-t-2{
-    float: right;
-    margin: 10px 30px 0px 10px;
+    display: none;
+    position: absolute;
     height: 180px;
-    width: 900px;
+    width: 33%;
+    float: right;
+
 
 
 }
 
 .rev1-img{
     float: left;
-    height: 350px;
-    width: 320px;
+    height: 370px;
+    width: 330px;
 
 
 }
@@ -475,13 +509,14 @@ margin-top: 0;
     margin: 0;
     position: relative;
     float: right;
-    height: 180px;
-    width: 330px;
+    height: 280px;
+    width: 440px;
     background-image: url("foto/opac50fon.png");
 
 
 }
 .rev1-text p{
+    font-size: 20px;
     padding-left: 7px;
     padding-right: 7px;
     margin-bottom: 4px;
@@ -510,7 +545,7 @@ margin-top: 0;
 }
 
 .rev2-text h3{
-margin: 6px 4px 4px 4px;
+    margin: 6px 4px 4px 4px;
     padding-left: 12px;
     padding-right: 12px;
 }
@@ -519,9 +554,9 @@ margin: 6px 4px 4px 4px;
 
 .cont-block{
     position: absolute;
-    margin: 30px 20px 30px 50px;
-    height: 400px;
-    width: 400px;
+    margin: 10px 10px 10px 10px;
+    height: 300px;
+    width: 350px;
     background-color: #cccccc;
     border: solid 1px white;
 
@@ -539,18 +574,19 @@ margin: 6px 4px 4px 4px;
 }
 .phone p{
     float: left;
-    margin-left: 50px;
-    font-size: 20px;
+    margin-left: 40px;
+    font-size: 17px;
     margin-top: 5px;
 }
 
 .cont-map{
+    display: none;
     position: absolute;
-    margin: 30px 20px 30px 560px;
-    height: 400px;
-    width: 700px;
+    margin: 30px 20px 30px 450px;
+    height: 300px;
+    width: 400px;
 
- }
+}
 .cont-map iframe{
     width: 100%;
     height: 100%;
@@ -567,8 +603,8 @@ margin: 6px 4px 4px 4px;
 }
 .adress p{
     float: left;
-    margin-left: 17px;
-    font-size: 20px;
+    margin-left: 12px;
+    font-size: 17px;
     margin-top: 13px;
 }
 .mail{
@@ -582,8 +618,8 @@ margin: 6px 4px 4px 4px;
 }
 .mail p{
     float: left;
-    margin-left: 17px;
-    font-size: 20px;
+    margin-left: 15px;
+    font-size: 18px;
     margin-top: 13px;
 
 }

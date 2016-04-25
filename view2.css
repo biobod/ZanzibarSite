@@ -3,12 +3,14 @@
 body{
     margin: 0;
     font-family: Roboto Condensed, sans-serif;
+
 }
 
 #wrapper{
 
-   width: 100%;
-   max-width: 1600px;
+    width: 100%;
+    max-width: 1600px;
+
 
 }
 
@@ -52,14 +54,14 @@ body{
     background-image: url("foto/tictac-fon.jpg");
     background-size: cover;
     background-position: 70%;
-     margin-top: 85px;
+    margin-top: 85px;
 
 }
 
 .beaches{
     position: relative;
     width: 100%;
-    height: 1625px;
+    height: 1825px;
     background-color: #333333;
 }
 .indTour{
@@ -112,7 +114,7 @@ body{
 }
 .down-m-menu ul li {
 
-cursor: pointer;
+    cursor: pointer;
     font-size: 20px;
     display: inline;
     padding-left: 18px;
@@ -145,10 +147,10 @@ cursor: pointer;
     font-size: 18px;
     font-family: Roboto Condensed, sans-serif;
     margin-left: 20px;
-overflow: hidden;
+    overflow: hidden;
     background-color: white;
-}
 
+}
 .country-inform p {
     padding-left: 4px;
 }
@@ -178,14 +180,14 @@ overflow: hidden;
     font-family: Roboto Condensed, sans-serif;
     width: 68%;
 
-   }
+}
 .timelost-1{
     height: 100%;
     width: 100%;
 
     border: solid white 2px;
     border-radius: 10px;
-   vertical-align: middle;
+    vertical-align: middle;
     background-color: #1a1a1a;
 
 }
@@ -206,7 +208,7 @@ overflow: hidden;
     font-family: Roboto Condensed, sans-serif;
     color: white;
     border-radius: 5px;
-   background-color: #1a1a1a;
+    background-color: #1a1a1a;
     cursor: pointer;
 }
 .clickAction-b:hover{
@@ -219,7 +221,7 @@ overflow: hidden;
     margin-top: 5px;
     width: 98%;
     margin-left: 1%;
-    height: 400px;
+    height: 450px;
     font-family: Roboto Condensed, sans-serif;
     overflow: hidden;
 }
@@ -273,7 +275,7 @@ overflow: hidden;
     text-align: center;
     background-image: url("foto/opac75fon.png");
     background-position: 100%;
-    font-size: 22px;
+    font-size: 19px;
     color: white;
 }
 
@@ -300,7 +302,7 @@ overflow: hidden;
     text-align: center;
     background-image: url("foto/opac75fon.png");
     background-position: 100%;
-    font-size: 22px;
+    font-size: 19px;
     color: white;
 }
 
@@ -340,7 +342,7 @@ overflow: hidden;
     text-align: center;
     background-image: url("foto/opac75fon.png");
     background-position: 100%;
-    font-size: 22px;
+    font-size: 19px;
     font-weight: 600;
     color: white;
 }
@@ -349,7 +351,7 @@ overflow: hidden;
 .tur-why{
     display: block;
     float: left;
-    width: 600px;
+    width: 500px;
     height: 300px;
     margin: 35px 50px 50px 50px;
     font-family: garamond, gabriola;
@@ -357,8 +359,8 @@ overflow: hidden;
 }
 .tur-w-1 h2{
     margin: 0;
-    width: 500px;
-    font-size: 40px;
+    width: 400px;
+    font-size: 35px;
     font-weight: 500;
     padding-left: 30px;
     background-color: white;
@@ -371,8 +373,8 @@ overflow: hidden;
 .tyr-w-2 li{
     list-style-type: none;
     height: 54px;
-    font-size: 32px;
-    font-weight: 600;
+    font-size: 28px;
+    font-weight: 500;
     margin-top: 5px;
     text-align: center;
     background-color: #f2f2f2;
@@ -384,8 +386,8 @@ overflow: hidden;
 
 }
 .tyr-w-2 li p{
-margin-top: 0;
-   padding-left: 20px;
+    margin-top: 0;
+    padding-left: 20px;
     padding-top: 2px;
 
 
@@ -394,20 +396,20 @@ margin-top: 0;
 .tur-form{
     display: block;
     float: left;
-    width: 400px;
+    width: 330px;
     height: 320px;
-    margin: 30px 50px 50px 50px;
+    margin: 30px 10px 10px 0px;
     background-image: url("foto/opac50fon.png") ;
     border: solid 3px white;
     border-radius: 10px;
 }
 .tur-form input {
     margin-top: 20px;
-   margin-left: 30px;
-    width: 340px;
+    margin-left: 15px;
+    width: 280px;
     height: 40px;
     font-family: garamond, gabriola;
-    font-size: 25px;
+    font-size: 23px;
 
 }
 .tur-form h3{
@@ -425,7 +427,7 @@ margin-top: 0;
     background-image: url("foto/bottom_fon.jpg");
     height: 98%;
     font-family: garamond, gabriola;
-    
+
 }
 .rev-t-1{
     position: relative;
@@ -510,7 +512,7 @@ margin-top: 0;
 }
 
 .rev2-text h3{
-margin: 6px 4px 4px 4px;
+    margin: 6px 4px 4px 4px;
     padding-left: 12px;
     padding-right: 12px;
 }
@@ -548,9 +550,9 @@ margin: 6px 4px 4px 4px;
     position: absolute;
     margin: 30px 20px 30px 560px;
     height: 400px;
-    width: 700px;
+    width: 450px;
 
- }
+}
 .cont-map iframe{
     width: 100%;
     height: 100%;
