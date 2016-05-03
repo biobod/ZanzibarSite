@@ -14,16 +14,16 @@
 <body>
 <div id="wrapper">
     <div id="main-block">
-        <div class="menu">
+        <div id="menu">
             <div class="main-menu">
 
                 <div class="down-m-menu">
                     <ul>
-                        <li>О стране</li>
-                        <li>Пляжи и отели</li>
-                        <li>Подобрать тур</li>
-                        <li>Отзывы</li>
-                        <li>Контакты</li>
+                        <li><a href="#aboutCounty">О стране</a></li>
+                        <li><a href="#beaches"> Пляжи и отели</a></li>
+                        <li><a href="#indTour"> Подобрать тур</a></li>
+                        <li><a href="#reviews"> Отзывы</a></li>
+                        <li><a href="#contacts"> Контакты</a></li>
                     </ul>
                 </div>
             </div>
@@ -36,8 +36,26 @@
         <div class="goto">
             <form><input type="button" value="Подобрать тур!"></form>
         </div>
+        <div class="background-form">
+            <div class="main-form">
+            <div class="close">
+                <i class="fa fa-times fa-2x" aria-hidden="true" ></i>
+            </div>
+            <div class="tur-form2">
+                <h3>Заявка на подбор тура</h3>
 
-        <div class="aboutCounty">
+                <form><input type="text" placeholder="Ваше имя"></form>
+
+                <form><input type="text" placeholder="Телефон"></form>
+
+                <form><input type="button" value="Подобрать тур!"></form>
+
+            </div>
+
+        </div>
+        </div>
+
+        <div id="aboutCounty" class="hash">
             <div class="county-block1">
                 <div class="country-title">
                     <h1>Африка еще никогда не была так доступна!</h1>
@@ -87,7 +105,7 @@
 
         </div>
 
-        <div class="advantages">
+        <div id="advantages" class="hash">
             <div class="timelost">
                 <div class="timelost-1">
 
@@ -106,7 +124,7 @@
 
         </div>
 
-        <div class="beaches">
+        <div id="beaches" class="hash">
             <div class="beach b-kendwa">
                  <div class="hotel-kendwa">
                      <h2>Natural Kendwa Villa </h2>
@@ -231,7 +249,7 @@
 
         </div>
 
-        <div class="indTour">
+        <div id="indTour" class="hash">
             <div class="tur-why">
                 <div class="tur-w-1">
                     <h2>Выбирая отдых с нами, Вы получаете: </h2>
@@ -259,7 +277,7 @@
 
         </div>
 
-        <div class="reviews">
+        <div id="reviews" class="hash">
             <div class="reviews-main">
                 <div class="rev-t-1">
                     <div class="rev1-img">
@@ -348,7 +366,7 @@
 
         </div>
 
-        <div class="contacts">
+        <div id="contacts" class="hash">
             <div class="cont-block">
                 <div class="phone">
                     <i class="fa fa-mobile fa-5x"></i>
@@ -381,5 +399,6 @@ src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d2542.8978175121943!2d
     </div>
 
 </div>
+<script type = "text/javascript" src="effects.js"></script>
 </body>
 </html>
