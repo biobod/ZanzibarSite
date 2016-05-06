@@ -1,4 +1,6 @@
 
+@viewport {
+    width: 1340px;}
 
 body{
     margin: 0;
@@ -131,7 +133,7 @@ cursor: pointer;
     position: absolute;
     top: 20px;
     opacity: 0;
-    transition: all 2000ms linear;
+    transition: all 800ms linear;
 
 
 
@@ -604,6 +606,8 @@ margin: 6px 4px 4px 4px;
     background-image: url("foto/opac50fon.png");
     z-index: 1000;
     display: none;
+    transition: all 1000ms linear;
+
 
 }
 
