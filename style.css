@@ -1,0 +1,2062 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+body{
+    font: 100%/1.5em Garamond,Gabriola, sans-serif;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    color: #99ccff;
+}
+.clear:after {
+    content: "&nbsp;";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    height: 0;
+    line-height: 0;
+}
+
+#wrapper{
+    width: 90%;
+    margin: 0 auto;
+
+
+}
+
+#main-block{
+    height: 100%;
+    width: 100%;
+    background-color: #333333;
+}
+
+#menu {
+    position: fixed;
+    top: 0;
+    width: 90%;
+    height: 80px;
+    background-color: #333333;
+    z-index: 100;
+    color: white;
+
+}
+.goto{
+    display: none;
+}
+#aboutCounty{
+    position: relative;
+    margin-top: 80px;
+    width: 100%;
+    display: block;
+
+ /* background-image: url("foto/images1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 100%; */
+
+
+
+
+}
+#advantages{
+    position: relative;
+    width: 100%;
+    height: 350px;
+    background-image: url("foto/tictac-fon.jpg");
+    background-size: cover;
+    background-position: 70%;
+    margin-top: 20px;
+
+}
+
+#beaches{
+    position: relative;
+    width: 100%;
+    height: 835px;
+    background-color: #333333;
+}
+#indTour{
+    margin-top: 10px;
+    position: relative;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-image: url("foto/personal_tur_fon.jpg");
+
+}
+
+#reviews{
+    position: relative;
+    width: 100%;
+    height: 680px;
+    background-color: #333333;
+}
+
+#contacts{
+    position: relative;
+    width: 100%;
+    height: 600px;
+    background-color: #333333;
+}
+
+/* -------------menu-------------------*/
+
+.main-menu{
+    float: left;
+    height: 100%;
+    width: 69%;
+
+}
+
+.contacts-menu{
+    float: right;
+    height: 100%;
+    width: 30%;
+    background-color: gray;
+}
+
+.sp-menu{
+cursor: pointer;
+    height: 80%;
+    width: 50%;
+    margin: 10px 7%;
+
+}
+.sp-menu span{
+    float: left;
+    margin: 3px;
+    height: 8px;
+    width: 100%;
+    position: relative;
+    z-index: 20;
+    background-color: white;
+}
+
+
+.down-m-menu{
+    display: none;
+    margin-top: 15px;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+.down-m-menu ul li {
+
+    cursor: pointer;
+    font-size: 0.95em;
+    display: inline;
+    padding-left: 2%;
+}
+.down-m-menu ul li:hover{
+    color: #99ccff;
+
+}
+.hide-menu{
+    opacity: 0;
+    position: fixed;
+    top: -40%;
+    width: 55%;
+    left: 5%;
+    background-color:  #333333 ;
+    text-align: center;
+    z-index: 10;
+    -webkit-transition: all 700ms linear;
+    -moz-transition: all 700ms linear;
+    transition: all 700ms linear;
+}
+.hide-menu li {
+    list-style-type: none;
+    border-bottom: solid 1px white;
+    font-size: 1.3em;
+
+}
+.show-menu {
+    top: 80px;
+    opacity: 1;
+}
+/* -------------aboutCounty-------------------*/
+.county-block1{
+    position: absolute;
+
+    top: 20px;
+    display: table-row;
+    opacity: 1;
+    width: 100%;
+
+
+}
+.country-title{
+    margin: auto 0;
+    text-align: center;
+    color: black;
+    font-size: 0.9em;
+    font-family: Roboto Condensed, sans-serif;
+    background-image: url("foto/opac50fon.png");
+}
+.country-inform{
+    display: table-cell;
+    position: relative;
+   float: left;
+    height: 26%;
+    width: 100%;
+    font-size: 0.8em;
+    font-family: Roboto Condensed, sans-serif;
+    overflow: hidden;
+    background-color: white;
+
+}
+
+.county-block1 h1 {
+    padding: 2% 2%;
+}
+.coutry-foto {
+    display: block;
+    height: 50%;
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+
+}
+
+.coutry-foto img{
+    max-width: 100%;
+    height: auto;
+}
+.country-text {
+    float: left;
+    display: block;
+
+
+
+}
+
+/* -------------Timer-------------------*/
+.timelost{
+
+    margin: 0 auto;
+    padding-top: 10px ;
+    text-align: center;
+    color: white;
+    font-size: 1.2em;
+    font-weight: 500;
+    font-family: Roboto Condensed, sans-serif;
+    width: 90%;
+
+}
+.timelost-1{
+    height: 100%;
+    width: 100%;
+    border: solid white 1px;
+    border-radius: 5px;
+    vertical-align: middle;
+    background-color: #1a1a1a;
+
+}
+
+.clickAction{
+    padding-top: 10px;
+    margin: auto 0;
+    text-align: center;
+    color: black;
+
+}
+.clickAction-b{
+    height: 60px;
+    width: 90%;
+    font-size: 1.6em;
+    font-family: Roboto Condensed, sans-serif;
+    color: white;
+    border-radius: 5px;
+    background-color: #1a1a1a;
+    cursor: pointer;
+}
+.clickAction-b:hover{
+    background-color: #333333;
+    padding-top: 1%;
+}
+
+/* ------------- Beaches-------------------*/
+.beach{
+    margin-top: 5px;
+    width: 98%;
+    margin-left: 1%;
+    height: 200px;
+    font-family: Roboto Condensed, sans-serif;
+    overflow: hidden;
+}
+.b-kendwa{
+    background-image: url("foto/kendwa.jpg");
+    background-position: 100%;
+    background-size: cover;
+
+
+}
+.hotel-kendwa{
+    display: table-row;
+    float: left;
+    height: 35%;
+    width: 100%;
+    background-image: url("foto/opac50fon.png");
+    background-position: 100%;
+    font-size: 0.65em;
+    text-align: left;
+}
+.beach h2{
+    padding-top: 0.5%;
+
+
+}
+.beach p {
+    display: none;
+    padding: 0.5%;
+}
+.stars {
+    display: inline;
+}
+.hot-b{
+
+      position: relative;
+        float: right;
+    margin-top: 90px;
+        display: table-cell;
+        height: 40%;
+        width: 30%;
+        font-size: 0.55em;
+        font-weight: 600;
+        background-color:#ffff33;
+        cursor: pointer;
+        border: solid 2px black;
+        border-radius: 5px;
+}
+
+.price h2{
+    padding-top: 0;
+}
+
+.hot-b:hover{
+    background-color: #b3b3ff;
+}
+.b-kendwa-1{
+    display: none;
+    float: left;
+    width: 60%;
+    text-align: center;
+    background-image: url("foto/opac75fon.png");
+    background-position: 100%;
+    font-size: 0.8em;
+    color: white;
+}
+/* ------------- Beaches -2 -------------------*/
+.b-nungwi{
+    background-image: url("foto/nungwi.jpg");
+    background-position: 100%;
+    background-size: cover;
+
+}
+.hotel-nungwi{
+    display: table-row;
+    float: left;
+    height: 35%;
+    width: 100%;
+    background-image: url("foto/opac50fon.png");
+    background-position: 100%;
+    font-size: 0.7em;
+    text-align: left;
+}
+.b-nungwi-1{
+    display: none;
+    float: right;
+     width: 60%;
+    text-align: center;
+    background-image: url("foto/opac75fon.png");
+    background-position: 100%;
+    font-size: 0.8em;
+    color: white;
+}
+/* ------------- Beaches -3 -------------------*/
+
+.b-uroa{
+    background-image: url("foto/uroa.jpg");
+    background-position: 100%;
+    background-size: cover;
+}
+.hotel-uroa{
+    display: table-row;
+    float: left;
+    height: 35%;
+    width: 100%;
+    background-image: url("foto/opac50fon.png");
+    background-position: 100%;
+    font-size: 0.7em;
+    text-align: left;
+}
+/* ------------- Beaches -4 -------------------*/
+.b-bubu{
+    background-image: url("foto/bububu.jpg");
+    background-position: 100%;
+    background-size: cover;
+}
+.hotel-bubu{
+    display: table-row;
+    float: left;
+    height: 35%;
+    width: 100%;
+    background-image: url("foto/opac50fon.png");
+    background-position: 100%;
+    font-size: 0.6em;
+    text-align: left;
+}
+.b-bubu-1{
+    display: none;
+    float: left;
+    width: 60%;
+    text-align: center;
+    background-image: url("foto/opac75fon.png");
+    background-position: 100%;
+    font-size: 0.8em;
+    color: white;
+}
+
+/* -------------  IndTour -------------------*/
+.tur{
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+.tur-why{
+    display: block;
+    width: 90%;
+    height: 190px;
+    margin: 0 auto;
+}
+.tur-w-1 h2{
+
+    width: 90%;
+    font-size: 1.4em;
+    font-weight: 500;
+    padding-left: 1%;
+    background-color: white;
+
+}
+
+.tyr-w-2 li{
+    list-style-type: none;
+    height: 10%;
+    font-size: 0.95em;
+    font-weight: 500;
+    margin-top: 1%;
+    text-align: center;
+    background-color: #f2f2f2;
+    border-bottom: solid 2px black;
+    border-left: solid 2px black;
+
+}
+
+.tyr-w-2 li p{
+    margin-top: 0;
+    padding-left: 2%;
+    padding-top: 2px;
+
+
+
+}
+.tur-form{
+    display: block;
+
+    width: 90%;
+    height: 180px;
+    margin: 10px auto;
+    background-image: url("foto/opac50fon.png") ;
+    border: solid 2px white;
+    border-radius: 10px;
+}
+.tur-form input {
+    margin-top: 3%;
+    margin-left: 2%;
+    width: 90%;
+    height: 25px;
+
+    font-size: 1em;
+
+}
+.tur-form h3{
+    margin: 20px 0 0 10px;
+
+    font-size: 1.3em;
+    text-align: center;
+}
+/* -------------reviews-------------------*/
+
+.reviews-main{
+    width: 96%;
+    margin-left: 2%;
+    margin-top: 1%;
+   /* background-image: url("foto/bottom_fon.jpg"); */
+    height: 98%;
+    line-height: 1em;
+
+
+}
+.rev-t-1{
+    margin-top: 10px;
+    position: relative;
+    display: block;
+    float: left;
+    height: 200px;
+    width: 100%;
+
+}
+
+.rev-t-2{
+    display: none;
+    position: absolute;
+    height: 180px;
+    width: 33%;
+    float: right;
+    overflow: hidden;
+
+
+
+}
+
+.rev1-img{
+    position: relative;
+    display: block;
+    float: left;
+    width: 48%;
+    height: 200px;
+    overflow: hidden;
+
+}
+.rev2-img{
+    float: right;
+    width: 50%;
+}
+
+
+.rev1-text{
+
+    position: relative;
+    float: left;
+    height: 200px;
+    width: 51%;
+    background-image: url("foto/opac50fon.png");
+
+
+}
+.rev1-text p{
+    font-size: 0.8em;
+    padding-left: 1%;
+    padding-right: 1%;
+    margin-bottom: 4px;
+}
+.rev1-text h3{
+    font-size: 1.1em;
+    padding-left: 1.2%;
+
+}
+
+.rev2-text{
+    margin: 0;
+    position: relative;
+    float: left;
+    height: 80px;
+    width: 100%;
+    background-image: url("foto/opac50fon.png");
+
+}
+
+.rev2-text p{
+
+    padding-left: 1%;
+    padding-right: 1%;
+
+
+}
+
+.rev2-text h3{
+
+}
+
+/* -------------contacts-------------------*/
+
+.cont-block{
+    position: absolute;
+    margin: 0 3% ;
+    height: 300px;
+    width: 94%;
+    background-color: #cccccc;
+    border: solid 1px white;
+
+}
+.phone{
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 100%;
+    float: left;
+}
+.fa-mobile{
+    height: 100px;
+    float: left;
+    margin-top: 10px;
+}
+.phone p{
+    float: left;
+    margin-left: 10%;
+    font-size: 1.1em;
+    margin-top: 5px;
+}
+
+.cont-map{
+    display: block;
+    position: absolute;
+    top: 320px;
+    left: 3%;
+    height: 270px;
+    width: 94%;
+
+}
+.cont-map iframe{
+    width: 100%;
+    height: 100%;
+}
+.adress{
+    margin-top: 10px;
+    margin-left: 5px;
+    width: 100%;
+    float: left;
+}
+.fa-home{
+    float: left;
+
+}
+.adress p{
+    float: left;
+    margin-left: 8px;
+    font-size: 1em;
+    margin-top: 13px;
+}
+.mail{
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 100%;
+    float: left;
+}
+.fa-envelope-o{
+    float: left;
+}
+.mail p{
+    float: left;
+    margin-left: 15px;
+    font-size: 1.1em;
+    margin-top: 13px;
+
+}
+/* -------------background-------------------*/
+.background-form{
+    position: fixed;
+    height: 100%;
+    width: 90%;
+    top: 80px;
+    margin: 0 auto;
+    background-image: url("foto/opac50fon.png");
+    z-index: 1000;
+    display: none;
+
+}
+
+.main-form{
+
+    height: 400px;
+    width: 90%;
+    margin: 0 auto;
+}
+.tur-form2{
+    display: block;
+
+    width: 90%;
+    height: 220px;
+    margin: 20% auto;
+    background-color: #333333;
+    border: solid 1px white;
+    border-radius: 10px;
+
+}
+.tur-form2 input {
+    margin-top: 4%;
+    margin-left: 5%;
+    width: 90%;
+    height: 25px;
+
+    font-size: 1em;
+
+}
+.tur-form2 h3{
+    color: white;
+    margin: 20px 0 0 10px;
+    font-size: 1.3em;
+    text-align: center;
+}
+.close{
+    margin-top: -35px;
+    margin-right: 10px;
+    float: right;
+}
+.fa-times:hover{
+    cursor: pointer;
+}
+
+/* -------------      @media screen and (min-width: 491px)        -------------------*/
+
+@media screen and (min-width: 491px) and (max-width:680px ){
+    /* -------------menu-------------------*/
+.down-m-menu{
+    display: block;
+    font-size: 1.1em;
+
+}
+
+.sp-menu{
+    display: none;
+}
+/* -------------aboutCounty-------------------*/
+
+.country-text{
+    font-size: 1.1em;
+
+ }
+
+/* -------------Timer-------------------*/
+
+.timelost{
+    height: 20%;
+
+
+}
+.timelost-1{
+    vertical-align: middle;
+    padding: 7px;
+}
+  /* ------------- Beaches-------------------*/
+#beaches{
+    height: auto;
+    line-height: 1.15em;
+
+}
+.beach{
+  height: auto;
+}
+
+    .hotel-kendwa{
+        float: left;
+        height: 100%;
+        width: 40%;
+        font-size: 0.7em;
+          }
+    .beach h2{
+        padding: 2%;
+    }
+    .beach p {
+        display: block;
+        padding: 2%;
+    }
+    .stars {
+    margin-left: 5%;
+    }
+    .hot-b{
+        position: relative;
+        float: right;
+        right: 2%;
+        display: block;
+        margin: 3%;
+        height: 30px;
+        width: 80%;
+        font-size: 0.9em;
+         }
+
+    .price h2{
+        padding-top: 0;
+    }
+
+    .hot-b:hover{
+        background-color: #b3b3ff;
+    }
+    .b-kendwa-1{
+        display: block;
+
+    }
+
+    .hotel-nungwi{
+        display: table-row;
+        float: right;
+        height: 100%;
+        width: 40%;
+        font-size: 0.7em;
+    }
+    .b-nungwi-1{
+        display: block;
+    }
+
+    .hotel-uroa{
+        float: left;
+        height: 100%;
+        width: 40%;
+    }
+
+    .hotel-bubu{
+       float:right;
+        height: 100%;
+        width: 40%;
+        font-size: 0.7em;
+        text-align: left;
+    }
+    .b-bubu-1{
+        display: block;
+    }
+
+    /* -------------  IndTour -------------------*/
+    tur-why{
+        position: relative;
+        display: block;
+        width: 90%;
+        height: 190px;
+        margin: 0 auto;
+    }
+
+    .tur-w-1 h2{
+
+        width: 90%;
+        font-size: 1.6em;
+        font-weight: 500;
+        padding-left: 1%;
+        background-color: white;
+    }
+
+    .tyr-w-2 li{
+        list-style-type: none;
+        height: 10%;
+        width: 80%;
+        font-size: 1.3em;
+    }
+
+    .tur-form{
+        display: block;
+        width: 70%;
+        height: 220px;
+        margin: 20px auto;
+           }
+
+    .tur-form input {
+        width: 80%;
+        height: 35px;
+        font-size: 1em;
+    }
+    .tur-form h3{
+  font-size: 1.6em;
+    }
+    /* -------------reviews-------------------*/
+    #reviews{
+        height: 1080px;
+    }
+    .reviews-main{
+        line-height: 1.2em;
+    }
+    .reviews-main p {
+        font-size: 0.9em;
+        padding-left: 2%;
+        padding-right: 2%;
+    }
+    .reviews-main h3 {
+        padding-left: 3%;
+
+    }
+    .rev-t-2{
+        margin-top: 10px;
+        position: relative;
+        display: block;
+        float: left;
+        height: 200px;
+        width: 100%;
+    }
+
+    .rev2-img{
+        position: relative;
+        display: block;
+        float: left;
+        width: 48%;
+        height: 200px;
+        overflow: hidden;
+    }
+
+    .rev2-text{
+        position: relative;
+        float: left;
+        height: 200px;
+        width: 51%;
+
+    }
+
+
+  /* -------------contacts-------------------*/
+
+    .phone{
+        margin-top: 10px;
+        margin-left: 10px;
+        width: 100%;
+        float: left;
+    }
+    .fa-mobile{
+margin-left: 10%;
+        height: 100px;
+        float: left;
+        margin-top: 10px;
+    }
+    .phone p{
+        width: 50%;
+        margin-left: 10%;
+        font-size: 1.2em;
+        margin-top: 5px;
+    }
+
+
+    .adress{
+       margin-left: 10px;
+       width: 100%;
+     }
+    .fa-home{
+
+        margin-left: 10%;
+
+    }
+    .adress p{
+
+        margin-left: 20px;
+        font-size: 1.2em;
+
+    }
+    .mail{
+
+        margin-left: 10px;
+        width: 100%;
+    }
+    .fa-envelope-o{
+        margin-left: 10%;
+           }
+    .mail p{
+        margin-left: 20px;
+        font-size: 1.2em;
+         }
+   /* -------------background-------------------*/
+    .background-form{
+        position: fixed;
+        height: 100%;
+        width: 90%;
+        top: 80px;
+        margin: 0 auto;
+        background-image: url("foto/opac50fon.png");
+        z-index: 1000;
+        display: none;
+
+    }
+
+    .main-form{
+
+        height: 500px;
+        width: 75%;
+        margin: 0 auto;
+    }
+    .tur-form2{
+        display: block;
+        width: 90%;
+        height: 220px;
+        margin: 20% auto;
+        background-color: #333333;
+        border: solid 1px white;
+        border-radius: 10px;
+
+    }
+    .tur-form2 input {
+        margin-top: 4%;
+        margin-left: 5%;
+        width: 90%;
+        height: 30px;
+        font-size: 1.1em;
+
+    }
+    .tur-form2 h3{
+        color: white;
+        margin: 20px 0 0 10px;
+        font-size: 1.5em;
+        text-align: center;
+    }
+    .close{
+        margin-top: -35px;
+        margin-right: 10px;
+        float: right;
+    }
+
+
+
+}
+
+
+
+
+/* -------------@media screen and (min-width: 681px)-------------------*/
+
+
+@media screen and (min-width: 681px) and (max-width: 860px){
+
+    /* -------------   menu   -------------------*/
+    .down-m-menu{
+        margin-top: 25px;
+        display: block;
+        font-size: 1em;
+    }
+    .sp-menu{
+        display: none;
+    }
+
+/* -------------   aboutCountry   -------------------*/
+#aboutCounty{
+    background-image: url("foto/images1.jpg");
+    background-size: cover;
+    background-position: 100%;
+    background-repeat: no-repeat;
+}
+.county-block1{
+    position: absolute;
+    top: 20px;
+    display: table-row;
+    opacity: 1;
+    width: 100%;
+    padding-bottom: 3%;
+
+
+}
+.country-title{
+
+    font-size: 0.95em;
+
+}
+.country-inform{
+    margin-left: 1%;
+    margin-top: 5%;
+    display: table-cell;
+    height: 80%;
+    width: 32%;
+    font-size: 0.75em;
+
+}
+
+.country-text p{
+ padding-left: 3%;
+}
+    /* -------------   timer   -------------------*/
+    #advantages{
+        margin-top: 10px;
+    }
+    .timelost{
+        height: 20%;
+
+
+    }
+    .timelost-1{
+        vertical-align: middle;
+        padding: 7px;
+    }
+    /* ------------- Beaches-------------------*/
+    #beaches{
+        height: auto;
+
+
+    }
+    .beach{
+        height: auto;
+    }
+
+    .hotel-kendwa{
+        float: left;
+        height: 100%;
+        width: 40%;
+        font-size: 0.8em;
+    }
+    .beach h2{
+        padding: 2%;
+    }
+    .beach p {
+        display: block;
+        padding: 2%;
+    }
+    .stars {
+        margin-left: 5%;
+    }
+    .hot-b{
+        position: relative;
+        float: right;
+        right: 4%;
+        display: block;
+        margin: 3%;
+        height: 30px;
+        width: 60%;
+        font-size: 1em;
+    }
+
+    .price h2{
+        padding-top: 0;
+    }
+
+    .hot-b:hover{
+        background-color: #b3b3ff;
+    }
+    .b-kendwa-1{
+        display: block;
+
+    }
+
+    .hotel-nungwi{
+        display: table-row;
+        float: right;
+        height: 100%;
+        width: 40%;
+        font-size: 0.7em;
+    }
+    .b-nungwi-1{
+        display: block;
+    }
+
+    .hotel-uroa{
+        float: left;
+        height: 100%;
+        width: 40%;
+    }
+
+    .hotel-bubu{
+        float:right;
+        height: 100%;
+        width: 40%;
+        font-size: 0.7em;
+        text-align: left;
+    }
+    .b-bubu-1{
+        display: block;
+    }
+
+    /* -------------  IndTour -------------------*/
+.tur{
+    width: 90%;
+}
+    tur-why{
+        position: relative;
+        display: block;
+        width: 80%;
+        height: 190px;
+        margin: 0 auto;
+    }
+
+    .tur-w-1 h2{
+        width: 90%;
+        font-size: 1.6em;
+        font-weight: 500;
+        padding-left: 1%;
+        background-color: white;
+    }
+
+    .tyr-w-2 li{
+
+        height: 10%;
+        width: 70%;
+        font-size: 1.3em;
+    }
+
+    .tur-form{
+        width: 60%;
+        margin-left: 5%;
+        margin-top: 20px;
+        height: 210px;
+    }
+
+    .tur-form h3{
+        font-size: 1.6em;
+    }
+
+    .tur-form input {
+        width: 80%;
+        height: 35px;
+        font-size: 1em;
+    }
+    /* -------------reviews-------------------*/
+    #reviews{
+        height: 1580px;
+            }
+    .reviews-main{
+        line-height: 1.5em;
+
+    }
+    .reviews-main p {
+        font-size: 1.1em;
+        padding-left: 2%;
+        padding-right: 2%;
+    }
+    .reviews-main h3 {
+        padding-left: 3%;
+
+    }
+
+    .rev-t-1{
+        height: 300px;
+    }
+    .rev-t-2{
+        margin-top: 10px;
+        position: relative;
+        display: block;
+        float: left;
+        height: 300px;
+        width: 100%;
+    }
+.rev1-img{
+    height: 300px;
+}
+    .rev2-img{
+        position: relative;
+        display: block;
+        float: left;
+        width: 48%;
+        height: 300px;
+        overflow: hidden;
+    }
+
+    .rev2-text{
+        position: relative;
+        float: left;
+        height: 300px;
+        width: 51%;
+    }
+    .rev1-text{
+        height: 300px;
+    }
+
+
+    /* -------------contacts-------------------*/
+
+    .phone{
+        margin-top: 10px;
+        margin-left: 10px;
+        width: 100%;
+        float: left;
+    }
+    .fa-mobile{
+        margin-left: 15%;
+        height: 100px;
+        float: left;
+        margin-top: 10px;
+    }
+    .phone p{
+        width: 60%;
+        margin-left: 10%;
+        font-size: 1.3em;
+        margin-top: 5px;
+    }
+    .adress{
+        margin-left: 10px;
+        width: 100%;
+    }
+    .fa-home{
+
+        margin-left: 15%;
+
+    }
+    .adress p{
+
+        margin-left: 25px;
+        font-size: 1.3em;
+
+    }
+    .mail{
+margin-top: 10px;
+        margin-left: 10px;
+        width: 100%;
+    }
+    .fa-envelope-o{
+        margin-left: 15%;
+    }
+    .mail p{
+        margin-left: 25px;
+        font-size: 1.3em;
+    }
+    /* -------------background-------------------*/
+    .background-form{
+        position: fixed;
+        height: 100%;
+        width: 90%;
+        top: 80px;
+        margin: 0 auto;
+        background-image: url("foto/opac50fon.png");
+        z-index: 1000;
+        display: none;
+
+    }
+
+    .main-form{
+        height: 450px;
+        width: 60%;
+        margin: 0 auto;
+    }
+    .tur-form2{
+        display: block;
+        width: 90%;
+        height: 230px;
+        margin: 20% auto;
+        background-color: #333333;
+        border: solid 1px white;
+        border-radius: 10px;
+
+    }
+    .tur-form2 input {
+        margin-top: 4%;
+        margin-left: 5%;
+        width: 90%;
+        height: 30px;
+        font-size: 1.1em;
+
+    }
+    .tur-form2 h3{
+
+        margin: 20px 0 0 10px;
+        font-size: 1.5em;
+        text-align: center;
+    }
+    .close{
+        margin-top: -35px;
+        margin-right: 10px;
+        float: right;
+    }
+
+}
+
+
+
+
+/* -------------@media screen and (min-width: 861px)-------------------*/
+
+
+
+@media screen and (min-width: 861px) and (max-width: 1060px)  {
+
+    /* -------------   menu   -------------------*/
+    .down-m-menu{
+        margin-top: 25px;
+        display: block;
+        font-size: 1.15em;
+    }
+    .sp-menu{
+        display: none;
+    }
+
+    /* -------------   aboutCountry   -------------------*/
+    #aboutCounty{
+        background-image: url("foto/images1.jpg");
+        background-size: cover;
+        background-position: 100%;
+        background-repeat: no-repeat;
+    }
+    .county-block1{
+        position: absolute;
+        top: 20px;
+        display: table-row;
+        opacity: 1;
+        width: 100%;
+        padding-bottom: 3%;
+
+
+    }
+    .country-title{
+
+        font-size: 0.95em;
+
+    }
+    .country-inform{
+        margin-left: 1%;
+        margin-top: 5%;
+        display: table-cell;
+        height: 80%;
+        width: 32%;
+        font-size: 0.9em;
+
+    }
+
+    .country-text p{
+        padding-left: 3%;
+    }
+    /* -------------   timer   -------------------*/
+    #advantages{
+        margin-top: 10px;
+    }
+    .timelost{
+        height: 20%;
+        font-size: 1.35em;
+
+
+    }
+    .timelost-1{
+        vertical-align: middle;
+        padding: 7px;
+    }
+    /* ------------- Beaches-------------------*/
+    #beaches{
+        height: auto;
+
+
+    }
+    .beach{
+        height: auto;
+    }
+
+    .hotel-kendwa{
+        float: left;
+        height: 100%;
+        width: 40%;
+        font-size: 0.8em;
+    }
+    .beach h2{
+        padding: 3%;
+    }
+    .beach p {
+        display: block;
+        padding: 2%;
+    }
+    .stars {
+        margin-left: 5%;
+    }
+    .hot-b{
+        position: relative;
+        float: right;
+        right: 4%;
+        display: block;
+        margin: 3%;
+        height: 30px;
+        width: 50%;
+        font-size: 1.1em;
+    }
+
+    .price h2{
+        padding-top: 0;
+    }
+
+    .hot-b:hover{
+        background-color: #b3b3ff;
+    }
+    .b-kendwa-1{
+        display: block;
+
+    }
+
+    .hotel-nungwi{
+        display: table-row;
+        float: right;
+        height: 100%;
+        width: 40%;
+        font-size: 0.8em;
+    }
+    .b-nungwi-1{
+        display: block;
+    }
+
+    .hotel-uroa{
+        float: left;
+        height: 100%;
+        width: 40%;
+        font-size: 0.8em;
+    }
+
+    .hotel-bubu{
+        float:right;
+        height: 100%;
+        width: 40%;
+        font-size: 0.8em;
+        text-align: left;
+    }
+    .b-bubu-1{
+        display: block;
+    }
+
+    /* -------------  IndTour -------------------*/
+    #indTour{
+        height: 280px;
+    }
+    .tur{
+        width: 95%;
+        height: 90%;
+        margin: 10px auto;
+
+    }
+    .tur-why{
+        position: relative;
+        display: block;
+        width: 45%;
+        height: 200px;
+        float: left;
+
+    }
+    .tur-w-1 h2{
+        width: 90%;
+        font-size: 1.5em;
+        font-weight: 500;
+        padding-left: 1%;
+
+    }
+    .tyr-w-2 li{
+        height: 11.5%;
+        width: 90%;
+        font-size: 1.25em;
+    }
+    .tur-form{
+        width: 45%;
+        float: left;
+        height: 200px;
+        margin: 0 0 0 2%;
+    }
+    .tur-form h3{
+        font-size: 1.5em;
+    }
+    .tur-form input {
+        margin-left: 10%;
+        width: 75%;
+        height: 35px;
+        font-size: 1em;
+    }
+    /* -------------reviews-------------------*/
+    #reviews{
+        height: 1335px;
+    }
+    .reviews-main{
+        line-height: 1.5em;
+        background-image: url("foto/bottom_fon.jpg");
+
+    }
+    .reviews-main p {
+        font-size: 1.1em;
+        padding-left: 2%;
+        padding-right: 2%;
+    }
+    .reviews-main h3 {
+        padding-left: 3%;
+
+    }
+    .rev-t-1{
+        height: 250px;
+    }
+    .rev-t-2{
+        margin-top: 10px;
+        position: relative;
+        display: block;
+        float: left;
+        height: 250px;
+        width: 100%;
+    }
+    .rev1-img{
+        height: 250px;
+        width: 30%;
+    }
+    .rev2-img{
+        position: relative;
+        display: block;
+        float: right;
+        width: 30%;
+        height: 250px;
+        overflow: hidden;
+    }
+    .rev2-text{
+        position: relative;
+        float: right;
+        height: 250px;
+        width: 63%;
+    }
+    .rev1-text{
+        height: 250px;
+    }
+
+    /* -------------contacts-------------------*/
+    #contacts{
+        height: 350px;
+    }
+    .cont-block{
+        width: 40%;
+        margin: 0 2%;
+
+    }
+    .cont-map{
+        width: 53%;
+        top: 0;
+        left: 45%;
+        height: 300px;
+    }
+    .phone{
+
+        width: 100%;
+        float: left;
+    }
+    .fa-mobile{
+        margin-left: 10%;
+        height: 100px;
+        float: left;
+        margin-top: 10px;
+    }
+    .phone p{
+        width: 65%;
+        margin-left: 10%;
+        font-size: 1.2em;
+        margin-top: 5px;
+    }
+
+
+    .adress{
+
+        width: 100%;
+    }
+    .fa-home{
+
+        margin-left: 10%;
+
+    }
+    .adress p{
+
+        margin-left: 15px;
+        font-size: 1.1em;
+
+    }
+    .mail{
+        margin-top: 10px;
+
+        width: 100%;
+    }
+    .fa-envelope-o{
+        margin-left: 10%;
+    }
+    .mail p{
+        margin-left: 25px;
+        font-size: 1.2em;
+    }
+    /* -------------background-------------------*/
+    .background-form{
+        position: fixed;
+        height: 100%;
+        width: 90%;
+        top: 80px;
+        margin: 0 auto;
+        background-image: url("foto/opac50fon.png");
+        z-index: 1000;
+        display: none;
+
+    }
+
+    .main-form{
+        height: 450px;
+        width: 55%;
+        margin: 0 auto;
+    }
+    .tur-form2{
+        display: block;
+        width: 90%;
+        height: 310px;
+        margin: 20% auto;
+        background-color: #333333;
+        border: solid 1px white;
+        border-radius: 10px;
+
+    }
+    .tur-form2 input {
+        margin-top: 4%;
+        margin-left: 5%;
+        width: 90%;
+        height: 50px;
+        font-size: 1.5em;
+
+    }
+    .tur-form2 h3{
+
+        margin: 20px 0 0 10px;
+        font-size: 1.8em;
+        text-align: center;
+    }
+    .close{
+        margin-top: -35px;
+        margin-right: 10px;
+        float: right;
+    }
+
+}
+
+/* -------------@media screen and (min-width: 1061px)-------------------*/
+@media screen and (min-width: 1061px)  {
+
+    /* -------------   menu   -------------------*/
+    .down-m-menu{
+        margin-top: 25px;
+        display: block;
+        font-size: 1.25em;
+    }
+    .sp-menu{
+        display: none;
+    }
+
+    /* -------------   aboutCountry   -------------------*/
+    #aboutCounty{
+        background-image: url("foto/images1.jpg");
+        background-size: cover;
+        background-position: 100%;
+        background-repeat: no-repeat;
+    }
+    .county-block1{
+        position: absolute;
+        top: 20px;
+        display: table-row;
+        opacity: 1;
+        width: 100%;
+        padding-bottom: 3%;
+
+
+    }
+    .country-title{
+
+        font-size: 1.2em;
+
+    }
+    .country-inform{
+        margin-left: 1%;
+        margin-top: 5%;
+        display: table-cell;
+        height: 80%;
+        width: 32%;
+        font-size: 0.9em;
+
+    }
+
+    .country-text p{
+        padding-left: 3%;
+    }
+    /* -------------   timer   -------------------*/
+    #advantages{
+        margin-top: 10px;
+    }
+    .timelost{
+        height: 20%;
+        font-size: 1.45em;
+
+
+    }
+    .timelost-1{
+        vertical-align: middle;
+        padding: 7px;
+    }
+    /* ------------- Beaches-------------------*/
+    #beaches{
+        height: auto;
+
+
+    }
+    .beach{
+
+      height: 390px;
+    }
+
+    .hotel-kendwa{
+        float: left;
+        height: 100%;
+        width: 40%;
+        font-size: 0.9em;
+    }
+    .beach h2{
+        padding: 3%;
+    }
+    .beach p {
+        display: block;
+        padding: 2%;
+    }
+    .stars {
+        margin-left: 5%;
+    }
+    .hot-b{
+        position: relative;
+        float: right;
+        right: 4%;
+        display: block;
+        margin: 3%;
+        height: 40px;
+        width: 53%;
+        font-size: 1em;
+
+    }
+
+    .price h2{
+        padding-top: 0;
+    }
+
+    .hot-b:hover{
+        background-color: #b3b3ff;
+    }
+    .b-kendwa-1{
+        display: block;
+
+    }
+
+    .hotel-nungwi{
+        display: table-row;
+        float: right;
+        height: 100%;
+        width: 40%;
+        font-size: 0.9em;
+    }
+    .b-nungwi-1{
+        display: block;
+    }
+
+    .hotel-uroa{
+        float: left;
+        height: 100%;
+        width: 40%;
+        font-size: 0.9em;
+    }
+    .hotel-bubu{
+        float:right;
+        height: 100%;
+        width: 40%;
+        font-size: 0.9em;
+        text-align: left;
+    }
+    .b-bubu-1{
+        display: block;
+    }
+
+    /* -------------  IndTour -------------------*/
+    #indTour{
+        height: 330px;
+    }
+    .tur{
+        width: 95%;
+        height: 90%;
+        margin: 10px auto;
+
+    }
+    .tur-why{
+        position: relative;
+        display: block;
+        width: 60%;
+        height: 270px;
+        float: left;
+
+    }
+    .tur-w-1 h2{
+        width: 90%;
+        font-size: 1.8em;
+        font-weight: 500;
+        padding-left: 3%;
+        padding-bottom: 10px;
+        padding-top: 10px;
+
+    }
+    .tyr-w-2 li{
+        padding-top: 10px;
+        padding-bottom: 6px;
+        height: 16%;
+        width: 90%;
+        font-size: 1.6em;
+    }
+    .tur-form{
+        width: 35%;
+        float: left;
+        height: 250px;
+        margin: 0 0 0 2%;
+    }
+    .tur-form h3{
+        font-size: 1.6em;
+    }
+    .tur-form input {
+        margin-left: 5%;
+        width: 85%;
+        height: 35px;
+        font-size: 1.2em;
+    }
+    /* -------------reviews-------------------*/
+    #reviews{
+        height: 1135px;
+    }
+    .reviews-main{
+        line-height: 1.5em;
+        background-image: url("foto/bottom_fon.jpg");
+
+    }
+    .reviews-main p {
+        font-size: 1.1em;
+        padding-left: 2%;
+        padding-right: 2%;
+    }
+    .reviews-main h3 {
+        padding-left: 3%;
+
+    }
+    .rev-t-1{
+        height: 200px;
+        width: 90%;
+        margin-left: 3%;
+        border: solid 1px white;
+        background-image: url("foto/opac50fon.png");
+    }
+    .rev-t-2{
+        margin-top: 10px;
+        position: relative;
+        display: block;
+        float: right;
+        height: 200px;
+        width: 90%;
+        margin-right: 3%;
+        border: solid 1px white;
+        background-image: url("foto/opac50fon.png");
+
+    }
+    .rev1-img{
+        height: 200px;
+        width: 20%;
+    }
+    .rev2-img{
+        position: relative;
+        display: block;
+        float: right;
+        width: 20%;
+        height: 200px;
+        overflow: hidden;
+    }
+    .rev2-text{
+        position: relative;
+        float: right;
+        height: 200px;
+        width: 73%;
+        background-image: none;
+    }
+    .rev1-text{
+        height: 200px;
+        width: 73%;
+        background-image: none;
+    }
+
+    /* -------------contacts-------------------*/
+    #contacts{
+        height: 350px;
+    }
+    .cont-block{
+        width: 40%;
+        margin: 0 2%;
+
+    }
+    .cont-map{
+        width: 53%;
+        top: 0;
+        left: 45%;
+        height: 300px;
+    }
+    .phone{
+
+        width: 100%;
+        float: left;
+    }
+    .fa-mobile{
+        margin-left: 10%;
+        height: 100px;
+        float: left;
+        margin-top: 10px;
+    }
+    .phone p{
+        width: 65%;
+        margin-left: 10%;
+        font-size: 1.2em;
+        margin-top: 5px;
+    }
+
+
+    .adress{
+
+        width: 100%;
+    }
+    .fa-home{
+
+        margin-left: 10%;
+
+    }
+    .adress p{
+
+        margin-left: 15px;
+        font-size: 1.2em;
+
+    }
+    .mail{
+        margin-top: 10px;
+
+        width: 100%;
+    }
+    .fa-envelope-o{
+        margin-left: 10%;
+    }
+    .mail p{
+        margin-left: 25px;
+        font-size: 1.2em;
+    }
+    /* -------------background-------------------*/
+    .background-form{
+        position: fixed;
+        height: 100%;
+        width: 90%;
+        top: 80px;
+        margin: 0 auto;
+        background-image: url("foto/opac50fon.png");
+        z-index: 1000;
+        display: none;
+
+    }
+
+    .main-form{
+        height: 450px;
+        width: 45%;
+        margin: 0 auto;
+    }
+    .tur-form2{
+        display: block;
+        width: 90%;
+        height: 310px;
+        margin: 20% auto;
+        background-color: #333333;
+        border: solid 2px white;
+        border-radius: 10px;
+
+    }
+    .tur-form2 input {
+        margin-top: 4%;
+        margin-left: 5%;
+        width: 90%;
+        height: 50px;
+        font-size: 1.5em;
+
+    }
+    .tur-form2 h3{
+
+        margin: 20px 0 0 10px;
+        font-size: 1.8em;
+        text-align: center;
+    }
+    .close{
+        margin-top: -35px;
+        margin-right: 10px;
+        float: right;
+    }
+
+}
